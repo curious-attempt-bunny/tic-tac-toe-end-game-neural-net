@@ -7,7 +7,7 @@ Experimentation with classification of the [UCI dataset for tic-tac-toe endgames
 * No hidden layer was needed!
 * Mini-batch sizes of 1 worked best (i.e. fully online)!
 * Encoding x / o / b as [1 / -1 / 0 or 1,0,0 / 0,1,0 / 0,0,1](https://github.com/curious-attempt-bunny/tic-tac-toe-end-game-neural-net/blob/master/src/endgame.py#L13-L14) achieved equivalent results!
-* An unbalanced training set (626 positive to negative 332) isn't unbalanced enough to cause problems!
+* An unbalanced training set (626 positive to negative 332) wasn't unbalanced enough to cause problems!
 
 # Requirements
 
