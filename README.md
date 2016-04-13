@@ -1,6 +1,12 @@
 # Overview
 
-Experimenting with classification of the [UCI dataset for tic-tac-toe endgames](https://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame).
+Experimentation with classification of the [UCI dataset for tic-tac-toe endgames](https://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame).
+
+# Learnings
+
+* No hidden layer was needed!
+* Mini-batch sizes of 1 worked best (i.e. fully online)!
+* Encoding x / o / b as [1 / -1 / 0 or 1,0,0 / 0,1,0 / 0,0,1](https://github.com/curious-attempt-bunny/tic-tac-toe-end-game-neural-net/blob/master/src/endgame.py#L13-L14) achieved equivalent results!
 
 # Requirements
 
@@ -58,12 +64,6 @@ Cost on training data: 0.422836937739
 Accuracy on training data: 752 / 766
 Accuracy on evaluation data: 96 / 96
 ```
-
-# Learnings
-
-* No hidden layer was needed!
-* Mini-batch sizes of 1 worked best (i.e. fully online)!
-* Encoding x / o / b as [1 / -1 / 0 or 1,0,0 / 0,1,0 / 0,0,1](https://github.com/curious-attempt-bunny/tic-tac-toe-end-game-neural-net/blob/master/src/endgame.py#L13-L14) achieved equivalent results!
 
 # Credits
 
